@@ -1,0 +1,88 @@
+
+
+Instructions d'installation pour le projet HPP
+
+1. Aller au répertoire du projet :
+   cd chemin/vers/hpp/project
+
+2. Créer un environnement virtuel :
+   python -m venv venv
+
+3. Activer l'environnement virtuel :
+   - Windows :
+     venv\Scripts\activate
+   - macOS/Linux :
+     source venv/bin/activate
+
+4. Installer les dépendances nécessaires :
+   pip install requests beautifulsoup4 pandas
+
+5. Aller au répertoire de scraping :
+   cd scraping
+
+6. Exécuter le script de scraping :
+   python heavyScraper.py
+
+7. Copier le nom du dernier fichier CSV :
+   Après l'exécution, allez dans le répertoire data/scraped et copiez le nom du dernier (ou seul) fichier CSV.
+
+8. Ouvrir le script de nettoyage :
+   Allez dans le répertoire cleaning et ouvrez le fichier cleaner.py.
+
+9. Coller le nom du fichier CSV :
+   Trouvez la variable file_path dans cleaner.py (ligne 6) et collez-y le nom du fichier CSV récupéré.
+
+10. Enregistrer et exécuter le script de nettoyage :
+    python cleaner.py
+
+
+
+
+
+    ***************************
+
+
+    
+
+Setup Instructions for HPP Project
+
+1. Navigate to the Project Directory:
+   cd path/to/hpp/project
+
+2. Create a Virtual Environment:
+   python -m venv venv
+
+3. Activate the Virtual Environment:
+   - Windows:
+     venv\Scripts\activate
+   - macOS/Linux:
+     source venv/bin/activate
+
+4. Install Required Dependencies:
+   pip install requests beautifulsoup4 pandas
+
+5. Navigate to the Scraping Directory:
+   cd scraping
+
+6. Execute the Heavy Scraper:
+   python heavyScraper.py
+
+7. Copy the Latest CSV File Name:
+   After execution, navigate to the data/scraped directory and copy the name of the latest (or only) CSV file.
+
+8. Open the Cleaner Script:
+   Navigate to the cleaning directory and open the cleaner.py file.
+
+9. Paste the CSV File Name:
+   Find the file_path variable in cleaner.py (line 6) and paste the scraped CSV file name after the path.
+
+10. Save and Execute the Cleaner Script:
+    python cleaner.py
+
+
+
+
+
+
+
+

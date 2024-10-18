@@ -1,0 +1,6 @@
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the contents of the cleaned and scraped directories
+# data/cleaned/*
+# data/scraped/*
